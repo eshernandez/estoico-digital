@@ -1,0 +1,15 @@
+{
+  "name": "camino-estoico",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev --host 0.0.0.0",
+    "build": "ASTRO_TELEMETRY_DISABLED=1 astro build",
+    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview --host 0.0.0.0",
+    "start": "ASTRO_TELEMETRY_DISABLED=1 astro preview --host 0.0.0.0 --port ${PORT:-4321}"
+  },
+  "dependencies": {
+    "astro": "^6.0.0"
+  }
+}
